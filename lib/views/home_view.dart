@@ -31,10 +31,11 @@ class HomeView extends StatelessWidget {
                     ),
                   ),
                   subtitle: InkWell(
-                      onTap: () => launchUrl(
-                            Uri.parse(meme.url!),
-                          ),
-                      child: Text(meme.url!)),
+                    onTap: () => launchUrl(
+                      Uri.parse(meme.url!),
+                    ),
+                    child: Text(meme.url!),
+                  ),
                 );
               },
             );
